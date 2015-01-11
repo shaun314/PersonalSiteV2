@@ -1,0 +1,661 @@
+body{
+    color: #555;
+    background: url("White-Stud.jpg");
+    text-align: center;
+}
+
+/* helper classes */
+.centered{
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.sectionTitle{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.gold{
+    background: url("Gold-Stud.jpg");
+}
+
+.darkRed{
+    background: url("DarkRed-Stud.jpg");
+}
+
+.purple{
+    background: url("Purple-Stud.jpg");
+}
+
+.green{
+    background: url("Green-Stud.jpg");
+}
+
+.lime{
+    background: url("Lime-Stud.jpg");
+}
+
+.orange{
+    background: url("Orange-Stud.jpg");
+}
+
+.darkOrange{
+    background: url("DarkOrange-Stud.jpg");
+}
+
+.darkBlue{
+    background: url("DarkBlue-Stud.jpg");
+}
+
+.titleBar{
+    height: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.titleHolder{
+    height: 90px;
+    width: 310px;
+    display: inline-block;
+    margin-top: -30px;
+    border-radius: 30px;
+}
+
+.titleText{
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 5px;
+    background-color: rgba(255,255,255,.5);
+    display: inline-block;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+/* header classes */
+#headerWrapper{
+    min-height: 70px;
+    background: linear-gradient(rgba(0,0,0,0) 30%, rgba(0,0,0,.2)) top no-repeat, url('Green-Stud.jpg');
+}
+
+.navHeader{
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    background: url("Blue-Stud.jpg");
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px 2px #228;
+    cursor: pointer;
+}
+
+.navHeaderText{
+    color: white;
+    text-decoration: none;
+}
+
+.navHeaderText:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navHeader:hover{
+    background: url("Blue-Real-Stud.jpg");
+}
+
+.accentBar{
+    height: 10px;
+    background: url("DarkBlue-Stud.jpg");
+}
+
+
+/* About Me Section */
+#aboutMeWrapper{
+    margin-top: 50px;
+}
+
+.aboutMeLayout{
+    width: 45%;
+    min-width: 330px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#profPicWrapper{
+    background: url("Tan-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    border-radius: 130px;
+}
+
+#profPic{
+    height: 250px;
+    border-radius: 125px;
+}
+
+#aboutMeSectionWrapper{
+    background: url("Lime-Stud.jpg");
+    padding: 14px;
+    margin: 10px 0px;
+    color: #333;
+    box-shadow: 0px 2px 2px 0px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+#aboutMeTextWrapper{
+    background-color: rgba(255,255,255,.7);
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #262;
+    border-width: 2px;
+}
+
+/* Internships */
+
+#internshipWrapper{
+    text-align: center;
+}
+
+.jobWrapper{
+    width: 230px;
+    margin: 10px 13px;
+    background: url("Blue-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.jobPane{
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    background-color: white;
+}
+
+.jobImgWrapper{
+    padding: 10px;
+}
+
+.jobImage{
+    height: 60px;
+    max-width: 100%;
+}
+
+.companyName{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.companyDates{
+    font-style: italic;
+}
+
+.companyTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+/* Entreprenurial */
+#entreprenurshipWrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.entWrapper{
+    width: 330px;
+    margin: 10px 13px;
+    background: url("Brown-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.entPane{
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    min-height: 350px;
+    background-color: white;
+}
+
+.entImgWrapper{
+    padding: 10px;
+}
+
+.entImage{
+    height: 70px;
+    max-width: 100%;
+}
+
+.entName{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.entTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+/* Leadership */
+#leadershipWrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.leadWrapper{
+    width: 330px;
+    margin: 10px 13px;
+    background: url("Orange-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.leadPane{
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    min-height: 350px;
+    background-color: white;
+}
+
+.leadImgWrapper{
+    padding: 10px;
+}
+
+.leadImage{
+    height: 70px;
+    max-width: 100%;
+}
+
+.leadName{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.leadTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+.leadTitle{
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Hire Me */
+#hireMeWrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hireWrapper{
+    width: 330px;
+    height: 330px;
+    margin: 10px 13px;
+    background: url("Green-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.hirePane{
+    width: 100%;
+    height: 310px;
+    max-height: 310px;
+    min-height: 310px;
+    background-color: white;
+    padding: 5px;
+}
+
+.hireName{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.hireTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+.skillWrapper{
+    margin-bottom: 7px;
+}
+
+.skillName{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skillBack{
+    height: 10px;
+    background: url("LightGray-Stud.jpg");
+}
+
+.skillDone{
+    height: 10px;
+    background: url("Blue-Real-Stud.jpg");
+}
+
+#hireContactBtn{
+    width: 210px;
+    height: 30px;
+    display: inline-block;
+    background: url("Blue-Real-Stud.jpg");
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 2px;
+    text-decoration: underline;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.hireContacntWrap{
+    display: inline-block;
+    width: 10px;
+    height: 30px;
+    background: url("Blue-Stud.jpg");
+    margin-top: 5px;
+    vertical-align: bottom;
+}
+
+/* Personal Projects */
+#personalProjectWrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projectWrapper{
+    width: 250px;
+    margin: 10px 13px;
+    background: url("Blue-Real-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.projectPane{
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    min-height: 350px;
+    background-color: white;
+}
+
+.projectImgWrapper{
+    padding: 10px;
+}
+
+.projectImage{
+    height: 70px;
+    max-width: 100%;
+}
+
+.projectName{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.projectTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+.projectTitle{
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Personal Stuff */
+#personalStuffWrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.personalWrapper{
+    width: 250px;
+    margin: 10px 13px;
+    background: url("Tan-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.personalPane{
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    background-color: white;
+}
+
+.personalImgWrapper{
+    padding: 10px;
+}
+
+.personalImage{
+    height: 140px;
+    max-width: 100%;
+}
+
+.personalName{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.personalTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+.personalTitle{
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Contact */
+#contactMeWrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contactWrapper{
+    width: 330px;
+    height: 330px;
+    margin: 10px 13px;
+    background: url("DarkOrange-Stud.jpg");
+    padding: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.contactPane{
+    width: 100%;
+    height: 310px;
+    max-height: 310px;
+    min-height: 310px;
+    background-color: white;
+    padding: 5px;
+}
+
+.contactName{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.contactTextWrapper{
+    padding: 5px;
+    text-align: left;
+}
+
+.connectWrapper{
+    
+}
+
+.socialMediaIconWrapper{
+    
+}
+
+.socialMediaIcon{
+    width: 40px;
+    float: left;
+}
+
+.socialMediaName{
+    font-size: 20px;
+    padding-top: 5px;
+    float: left;
+    margin-left: 5px;
+}
+
+.socialMediaInfo{
+    float: left;
+}
+
+.socialMediaSpacer{
+    background: url("Tan-Stud.jpg");
+    width: 100%;
+    margin: 10px 0px;
+    float: left;
+    height: 10px;
+}
+
+.socialMediaLink{
+    color: #222;
+    font-weight: bold;
+}
+
+#contactName{
+    height: 30px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,.3);
+    text-shadow: 1px 1px 1px white;
+}
+
+#contactEmail{
+    height: 30px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,.3);
+    text-shadow: 1px 1px 1px white;
+}
+
+#contactMessage{
+    height: 170px;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,.3);
+    text-shadow: 1px 1px 1px white;
+    overflow-y: auto;
+}
+
+#contactSend{
+    display: inline-block;
+    width: 137px;
+    height: 36px;
+    background: url("Tan-Stud.jpg");
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    cursor: pointer;
+    border-style: solid;
+    margin-top: -3px;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(data-ph);
+  color:black;
+  font-style:italic;
+}
+
+
+/* FOOTER */
+#footerWrapper{
+    display: inline-block;
+    max-width: 750px;
+    min-height: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    background: url("Blue-Real-Stud.jpg");
+}
+
+#footerText{
+    min-height: 30px;
+    display: inline-block;
+    max-width: 730;
+    font-size: 15px;
+    background-color: rgba(255,255,255,.5);
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar { 
+    width: 10px;
+	background-color: #aaa;
+}
+
+::-webkit-scrollbar-track { 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 8px;
+	background-color: #ddd;
+}
+::-webkit-scrollbar-thumb { 
+    border-radius: 8px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #aaa;
+}
+    
+#contactMessage::-webkit-scrollbar { 
+    width: 10px;
+    background-color: rgb(168,61,25);
+}
+
+#contactMessage::-webkit-scrollbar-track { 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    background-color: rgb(208,101,65);
+}
+#contactMessage::-webkit-scrollbar-thumb { 
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,.3);
+    background-color: #d66;
+    border-style: solid;
+    border-color: #ddd;
+}
